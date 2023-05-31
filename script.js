@@ -25,9 +25,9 @@ function lightMode() {
    toggleIcon.children[0].textContent = 'Light Mode';
    toggleIcon.children[1].classList.remove('fa-moon');
    toggleIcon.children[1].classList.add('fa-sun');
-   image1.src = '/undraw_proud_coder_light.svg';
-   image2.src = '/undraw_feeling_proud_light.svg';
-   image3.src = '/undraw_conceptual_light.svg';
+   image1.src = 'undraw_proud_coder_light.svg';
+   image2.src = 'undraw_feeling_proud_light.svg';
+   image3.src = 'undraw_conceptual_light.svg';
 }
 
 // switch theme dynamically
